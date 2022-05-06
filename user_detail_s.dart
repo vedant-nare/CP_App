@@ -41,7 +41,15 @@ class _UD_HomeState extends State<UD_Home> {
             ),
             Container(
               margin: EdgeInsets.symmetric(vertical: 5, horizontal: 35),
-              child: buildTextField("Fullname"),
+              child: buildTextField("Name"),
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 5, horizontal: 35),
+              child: buildTextField("Password"),
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 5, horizontal: 35),
+              child: buildTextField("Confirm Password"),
             ),
             Container(
               margin: EdgeInsets.symmetric(vertical: 5, horizontal: 35),
@@ -50,6 +58,14 @@ class _UD_HomeState extends State<UD_Home> {
             Container(
               margin: EdgeInsets.symmetric(vertical: 5, horizontal: 35),
               child: buildTextField("Email"),
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 5, horizontal: 35),
+              child: buildTextField("Address"),
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 5, horizontal: 35),
+              child: buildTextField("Adhaar Number"),
             ),
             
             Container(
